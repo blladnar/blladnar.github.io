@@ -1,11 +1,11 @@
 # Site settings
-title: Clean Blog
+title: Pacific Crest Trail
 header-img: img/home-bg.jpg
 email: your-email@yourdomain.com
-copyright_name: Your/Project/Corporate Name
+copyright_name: Adventures Not Vacations
 description: "Write your site description here. It will be used as your sites meta description as well!"
-url: "http://yourdomain.com"
 baseurl: ""
+url: "http://www.adventuresnotvacations.com"
 twitter_username: randallwbrown
 github_username:  blladnar
 facebook_username:  StartBootstrap
