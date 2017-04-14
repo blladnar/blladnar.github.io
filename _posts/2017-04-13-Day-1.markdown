@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Day 1"
+date:   2017-04-13
+---
+
+Cool Dude!
