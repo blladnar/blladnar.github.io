@@ -1,0 +1,8 @@
+---
+layout:     post
+title:      "day 7"
+subtitle:   "another day"
+date:       "2017-04-17 20:54:30"
+author:     "Randall"
+header-img: "img/day-7Header.JPG"
+---
