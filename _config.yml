@@ -1,19 +1,18 @@
 # Site settings
 title: Pacific Crest Trail
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
 copyright_name: Adventures Not Vacations
 description: "My trail journal while I hike the Pacific Crest Trail, northbound, in 2017"
 baseurl: ""
 url: "http://www.adventuresnotvacations.com"
 twitter_username: randallwbrown
 github_username:  blladnar
-facebook_username:  StartBootstrap
+facebook_username:  RandallBrown
 instagram_username: blladnar
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
-# google_tracking_id:
+google_tracking_id: UA-97562029-1
 
 # Build settings
 markdown: kramdown
