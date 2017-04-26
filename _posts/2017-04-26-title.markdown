@@ -1,0 +1,9 @@
+---
+layout:     post
+title:      "title"
+subtitle:   "subtitle"
+date:       "2017-04-26 16:19:55"
+author:     "Randall"
+header-img: "img/titleHeader.JPG"
+---
+![photo0](/img/titlePost0.JPG)
