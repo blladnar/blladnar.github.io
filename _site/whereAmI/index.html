@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="My trail journal while I hike the Pacific Crest Trail, northbound, in 2017">
 
-    <title>Pacific Crest Trail</title>
+    <title>Where am I? - Pacific Crest Trail</title>
 
-    <link rel="canonical" href="http://localhost:4000/">
+    <link rel="canonical" href="http://localhost:4000/whereAmI/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -88,14 +88,14 @@
 
 
     <!-- Page Header -->
-<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+<header class="intro-header" style="background-image: url('/img/about-bg.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="site-heading">
-                    <h1>Pacific Crest Trail</h1>
+                    <h1>Where am I?</h1>
                     <hr class="small">
-                    <span class="subheading">Walking from Mexico to Canada, two feet at a time.</span>
+                    <span class="subheading">See my progress on the trail</span>
                 </div>
             </div>
         </div>
@@ -106,24 +106,21 @@
 <div class="container">
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-			
-<div class="post-preview">
-    <a href="/2017/04/26/title/">
-        <h2 class="post-title">            title
-        </h2>
-        
-        <h3 class="post-subtitle">
-            subtitle
-        </h3>
-        
-    </a>
-    <p class="post-meta">Posted by Randall on April 26, 2017</p>
+			<center>
+  <p>I have walked 234.5 miles so far.</p>
+<style>
+.noTrail { position: relative; top: 0; left: 0; }
+.trail { position: absolute; top: 0; left: 0; }
+</style>
+<div style="position: relative; left: 0; top: 0; width: 400px;">
+  <img src="/img/PCTNoTrail.png" class="noTrail"/>
+  <img src="/img/PCTWithTrail.png" class="trail" id="trail"/>
 </div>
-<hr>
-
-
-<!-- Pager -->
-
+<script>
+  var clipHeight = 800 - (234.5 / 2650 * 800) - 53;
+  document.getElementById("trail").style.clip = "rect(" + clipHeight + "px,399px,800px,0px)";
+</script>
+</center>
 
 		</div>
 	</div>

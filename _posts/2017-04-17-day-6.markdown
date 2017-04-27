@@ -1,8 +1,0 @@
----
-layout:     post
-title:      "day 6"
-subtitle:   "the sixth day"
-date:       "2017-04-17 20:26:18"
-author:     "Randall"
-header-img: "../_posts/day-6Header.JPG"
----

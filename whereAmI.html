@@ -1,0 +1,22 @@
+---
+layout: whereAmI
+title: "Where am I?"
+description: "See my progress on the trail"
+header-img: "img/about-bg.jpg"
+---
+
+<center>
+  <p>I have walked {{ site.mile }} miles so far.</p>
+<style>
+.noTrail { position: relative; top: 0; left: 0; }
+.trail { position: absolute; top: 0; left: 0; }
+</style>
+<div style="position: relative; left: 0; top: 0; width: 400px;">
+  <img src="/img/PCTNoTrail.png" class="noTrail"/>
+  <img src="/img/PCTWithTrail.png" class="trail" id="trail"/>
+</div>
+<script>
+  var clipHeight = 800 - ({{site.mile}} / 2650 * 800) - 53;
+  document.getElementById("trail").style.clip = "rect(" + clipHeight + "px,399px,800px,0px)";
+</script>
+</center>

@@ -1,8 +1,0 @@
----
-layout:     post
-title:      "darkness 2"
-subtitle:   ""
-date:       "2017-04-17 23:41:43"
-author:     "Randall"
-header-img: "img/darkness-2Header.PNG"
----

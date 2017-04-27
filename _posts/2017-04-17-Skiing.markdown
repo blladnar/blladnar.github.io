@@ -1,9 +1,0 @@
----
-layout:     post
-title:      "Skiing"
-subtitle:   ""
-date:       "2017-04-17 22:52:32"
-author:     "Randall"
-header-img: "img/SkiingHeader.JPG"
----
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NDX5a0UK6bk" frameborder="0" allowfullscreen></iframe>
