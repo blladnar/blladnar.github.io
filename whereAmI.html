@@ -2,11 +2,17 @@
 layout: whereAmI
 title: "Where am I?"
 description: "See my progress on the trail"
-header-img: "img/about-bg.jpg"
+header-img: "img/whereAmI-bg.jpg"
 ---
 
 <center>
-  <p>I have walked {{ site.mile }} miles so far.</p>
+  {% for post in site.posts limit:1 %}
+  {% if post.mile %}
+    <p>I have walked {{ post.mile }} miles so far.</p>
+  {% else %}
+    <p>I have walked 0 miles so far.</p>
+  {% endif %}
+  {% endfor %}
 <style>
 .noTrail { position: relative; top: 0; left: 0; }
 .trail { position: absolute; top: 0; left: 0; }
@@ -16,9 +22,15 @@ header-img: "img/about-bg.jpg"
   <img src="/img/PCTWithTrail.png" class="trail" id="trail"/>
 </div>
 <script>
-  {% for post in site.pages limit:1 %}
-  var clipHeight = 800 - ({{site.mile}} / 2650 * 800) - 53;
+  {% for post in site.posts limit:1 %}
+    {% if post.mile %}
+      var mileage = {{post.mile}};
+    {% else %}
+      var mileage = 0;
+    {% endif %}
   {% endfor %}
+  var clipHeight = 800 - (mileage / 2650 * 800) - 53;
+
   document.getElementById("trail").style.clip = "rect(" + clipHeight + "px,399px,800px,0px)";
 </script>
 </center>
