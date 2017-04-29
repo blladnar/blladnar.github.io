@@ -16,7 +16,9 @@ header-img: "img/about-bg.jpg"
   <img src="/img/PCTWithTrail.png" class="trail" id="trail"/>
 </div>
 <script>
+  {% for post in site.pages limit:1 %}
   var clipHeight = 800 - ({{site.mile}} / 2650 * 800) - 53;
+  {% endfor %}
   document.getElementById("trail").style.clip = "rect(" + clipHeight + "px,399px,800px,0px)";
 </script>
 </center>
