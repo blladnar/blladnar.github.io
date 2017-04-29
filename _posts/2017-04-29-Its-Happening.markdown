@@ -15,7 +15,7 @@ For the next two years, that Summer 2017 date stuck in my head. I would tell peo
 
 In August 2016, Meghan and I got engaged. We decided that 2017 was too soon to plan a wedding and we wanted to wait until 2018. While I was thinking about the PCT, Meghan was applying to Physician Assistant schools. She was trying to start in 2017 and that could mean a huge life change for both of us. If she was going to leave the state for school, and we were getting married the next summer, now was the time to take a four month walk in the woods.
 
-As winter was winding up, it was looking less and less like Meghan would be starting PA school in the summer. She was on a waitlist, but hadn't been accepted anywhere. I had applied for a PCT permit for May 12th, but wasn't sure what to do. After talking, we decided I would do it and she started making plans for a summer in Seattle.
+As winter was winding up, it was looking less and less like Meghan would be starting PA school in the summer. She was on a waitlist, but hadn't been accepted anywhere. I had applied for a PCT permit for May 12th, but wasn't sure what to do. After talking, we decided I would hike the trail and she started making plans for a summer in Seattle.
 
 A month before my start date, she heard from Marist College in New York. She was off the wait list. School starts May 15th. Everything changed. Meghan would be moving to New York. My support for the trail was going to be thousands of miles and three time zones away. This was the original plan though, and we could handle it.
 
