@@ -5,7 +5,7 @@ subtitle:   "Blisters and Ultramarathons"
 date:       "2017-05-13 20:06:21"
 author:     "Randall"
 header-img: "img/Lake-Morena-to-Mount-LagunaHeader.JPG"
-mile:       "41.5"
+mile:       "42"
 ---
 The day started off bright and early woth a fellow hikers alarm going off at 5 am. I laid in bed until 6, listening to people getting ready before I started packing myself.
 
