@@ -28,3 +28,5 @@ I sat in the McDonald's for 4 hours eating McNuggets and making a Dr. Pepper flo
 When more hikers arrived, we headed back to the trail. We managed to do 5 more miles before dark and camped in the bottom of a valley, looking up at the stars. 
 
 ![photo2](/img/Milkshake MarathonPost2.JPG)
+
+Side note: I left my flip flops at McDonald's. I'm really hoping someone picks them up.
