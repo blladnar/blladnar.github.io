@@ -29,7 +29,7 @@ header-img: "img/whereAmI-bg.jpg"
       var mileage = 0;
     {% endif %}
   {% endfor %}
-  var clipHeight = 800 - (mileage / 2650 * 800) - 25;
+  var clipHeight = 800 - (mileage / 2650 * 800);
 
   document.getElementById("trail").style.clip = "rect(" + clipHeight + "px,399px,800px,0px)";
 </script>
