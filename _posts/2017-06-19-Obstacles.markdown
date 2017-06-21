@@ -5,6 +5,7 @@ subtitle:   "Overcoming adversities in the Sierra Nevada"
 date:       "2017-06-19 20:56:37"
 author:     "Randall"
 header-img: "img/ObstaclesHeader.JPG"
+mile:       "778"
 ---
 The day started with another attempt at our failed creek crossing. The river had gone down about 6 inches and we were ready to give it a shot. The crossing was tough but we went in pairs and made it just fine. Fine is relative. We were waist deep in snowmelt at 6:30 in the morning. Then we had two more to go...
 
