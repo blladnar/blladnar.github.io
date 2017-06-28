@@ -5,6 +5,7 @@ subtitle:   "You keep using that word. I do not think it means, what you think i
 date:       "2017-06-27 21:42:48"
 author:     "Randall"
 header-img: "img/ImpassableHeader.JPG"
+mile:       "878"
 ---
 Today was almost all about one thing. Bear Creek. Sure, we had to climb Selden pass and cross countless other small streams, but Bear Creek stuck out. Why? Since before I even started the PCT people have been saying that Bear Creek is impassable. Hundreds of people are skipping ahead and hiking south or road walking around, just bedause of this creek.
 
