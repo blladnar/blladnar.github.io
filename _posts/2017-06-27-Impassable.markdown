@@ -7,7 +7,7 @@ author:     "Randall"
 header-img: "img/ImpassableHeader.JPG"
 mile:       "878"
 ---
-Today was almost all about one thing. Bear Creek. Sure, we had to climb Selden pass and cross countless other small streams, but Bear Creek stuck out. Why? Since before I even started the PCT people have been saying that Bear Creek is impassable. Hundreds of people are skipping ahead and hiking south or road walking around, just bedause of this creek.
+Today was almost all about one thing. Bear Creek. Sure, we had to climb Selden pass and cross countless other small streams, but Bear Creek stuck out. Why? Since before I even started the PCT people have been saying that Bear Creek is impassable. Hundreds of people are skipping ahead and hiking south or road walking around, just because of this creek.
 
 Today, I crossed that creek. It was't impassable, it was actually pretty easy. We hiked upstream and crossed two tributaries separately. It probably added an hour to our hiking. We crossed directly below this waterfall.
 
