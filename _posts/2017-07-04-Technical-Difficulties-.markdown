@@ -25,9 +25,9 @@ From here, I would climb Benson Pass, one of the last few passes of the high Sie
 
 ![photo1](/img/Technical Difficulties Post1.JPG)
 
-After descending from the pass, I made it to Smedberg Lake. I was thinking this would be a good place to wait for my friend and even camp for the night if he couldn't get any farther. Unfortunately the lake was totally snow covered, so camping wasn't a great idea. So far on our hike the snow level has been at about 10,000 feet. For some reason, in Yosemite, the snow lingered way longer at lower elevations in certain places.
+After descending from the pass, I made it to Smedberg Lake. I was thinking this would be a good place to wait for my friend and even camp for the night if he couldn't get any farther. I had waited for him awhile at the top of the pass and he hadn't shown up. Unfortunately the lake was totally snow covered, so camping wasn't a great idea. So far on our hike the snow level has been at about 10,000 feet. For some reason, in Yosemite, the snow lingered way longer at lower elevations in certain places.
 
-This is where I goofed a little. I misread the map and thought it would be all downhill to the next big creek crossing and I could just camp there. Unfortunately, I had to climb a very steep, mostly snow covered slope first. Then I had to come back down an even steeper slope. There was nowhere to camp and I was committed to at least two more creek crossings. As it got later in the day, this concerned me because the water gets higher as the day goes on.
+This is where I goofed a little. I misread the map and thought it would be all downhill to the next big creek crossing and I could just camp there. Unfortunately, I had to climb a very steep, mostly snow covered slope first. Then I had to come back down an even steeper slope. There was nowhere to camp and I was committed to at least two more creek crossings. As it got later in the day, this concerned me because the water gets higher as the day goes on. I also wasnt sure if my friend was going to be able to catch up that night.
 
 The descent was the steepest descent of the PCT so far. I was borderline rock climbing in a few places and I got cliffed out at least a couple times. I had to go back and find a different route more than once. Luckily, as I descended, the trail showed up more and it eventually was almost totally showing. The first creek crossing was easy, since it was near where the creek forms from several smaller ones.
 
@@ -37,4 +37,4 @@ I crossed the log and got this view.
 
 ![photo2](/img/Technical Difficulties Post2.JPG)
 
-My goal for the day was actually a bit further than I went. I stopped hiking pretty early to give my friend a chance to catch up. 
+My goal for the day was actually a bit further than I went. I stopped hiking pretty early to give my friend a chance to catch up.
