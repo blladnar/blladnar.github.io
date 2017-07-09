@@ -28,3 +28,5 @@ I know I said the mountains were smaller, but they aren't any less impressive. T
 ![photo2](/img/Smaller MountainsPost2.JPG)
 
 Despite all the trouble I had with snow today, I still did 27 miles. That bodes well for Northern California and Oregon since I shouldn't have the navigation problems that slow me down so much. I have some catching up to do if I want to get back to a 20 mile per day average.
+
+Update: The family I saw at the trailhead made it to my camp a few hours after I did. They made a campfire and we roasted marshmallows. They had a lot of questions about the trail and I really enjoyed answering them. It was a fun night.
