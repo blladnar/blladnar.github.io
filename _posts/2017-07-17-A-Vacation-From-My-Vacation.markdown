@@ -30,3 +30,4 @@ In the morning my dad picked us up, we got our stuff from Fred's car and it was 
 When I got back to Reno I got a ride to WalMart where I resupplied. Then I went to Steak N Shake for dinner. Meghan and I were planning on getting that before she dropped me off, but traffic made it so we didn't have time. At least I got my Frisco Melt. I got a ride back to the airport to catch a bus to South Lake Tahoe.
 
 I checked back in to the Hard Rock and went to bed. I'm going to sleep in, get some room service for breakfast then hitch back to the trail.
+
