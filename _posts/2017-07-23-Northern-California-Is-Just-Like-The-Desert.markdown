@@ -25,6 +25,8 @@ It didn't help that today was brutally hot. We crossed a fairly busy road today,
 
 Our campsite even kinda looks like the desert. We're out of the trees and in scrubby bushes, not unlike the ones in the desert. Lizards are running around and we don't have a stream next to our camp.
 
+I'm dealing with a lot of the same problems I had at the beginning of the hike too. Sore shoulders, aching feet, and annoyingly, blisters. I got a nice big one on my pinky toe today and had to pop it while I was taking a water break. 
+
 ![photo2](/img/Northern California Is Just Like The DesertPost2.JPG)
 
 Despite all that, Northern California is pretty great. Bigger climbs means better views, more bugs means more water. We were spoiled in the Sierra having running water literally every hundred yards. Now we only have a few miles. We had sections in the desert that were almost 30 miles. We still have a lot of California left, but it's exciting. We saw our first volcano today, a sign that we're entering the Cascades.
