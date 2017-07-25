@@ -21,7 +21,7 @@ We passed a trail crew on the way up. The first I've seen so far. It's cool to s
 
 ![photo1](/img/A Festival On The TrailPost1.JPG)
 
-Eventually we got to the top and had a great view of Mount Lassen. We should be entering the national park in a couple of days.
+Eventually we got to the top and had a great view of Lassen Peak. We should be entering the national park in a couple of days.
 
 I thought we were done with snow after a totally snow free day yesterday, but we found some. This was at mile 1298.3. 
 
