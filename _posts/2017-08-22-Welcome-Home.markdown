@@ -19,7 +19,7 @@ After that we took our first steps in Washington. I had hiked the first 6 or so 
 
 Cascade Locks is the lowest point on the whole trail, so it should be expected that the climb out would be tough. We had a couple big climbs and big descents today and passed a lot of people who were in town for trail days.
 
-With our late start, progress seemed slow but when we got to the second to last water we decided to push on to the next one, 10 miles away. It would put us at camp right at dark.
+It was hot out and I got pretty sweaty. One of the streams we passed was big enough to jump in and I took advantage. With our late start, progress seemed slow but after jumping in, we decided to push on to the next water, 10 miles away. It would put us at camp right at dark.
 
 When we arrived at Trout Creek we found out that a lot of people had that same idea. We had hit the PCT Days bubble hard. There was nowhere to set up camp. I did see some people who met my friend Damon at a brewery in Bend though. Small world.
 
