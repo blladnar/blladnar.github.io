@@ -10,8 +10,7 @@ header-img: "img/whereAmI-bg.jpg"
   {% if post.mile %}
     <p>I have walked {{ post.mile }} miles so far.</p>
   {% else %}
-    <p>I have walked 2 miles so far.</p>
-    <script>alert("hello")</script>
+    <p>I have walked 2272 miles so far.
   {% endif %}
   {% endfor %}
 <style>
@@ -27,7 +26,7 @@ header-img: "img/whereAmI-bg.jpg"
     {% if post.mile %}
       var mileage = {{post.mile}};
     {% else %}
-      var mileage = 0;
+      var mileage = 2272;
     {% endif %}
   {% endfor %}
   var clipHeight = 800 - (mileage / 2650 * 800) + 10;
