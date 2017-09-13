@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "The End"
-subtitle:   "Walking was the east part."
+subtitle:   "Walking was the easy part."
 date:       "2017-09-12 23:42:38"
 author:     "Randall"
 header-img: "img/The-EndHeader.JPG"
