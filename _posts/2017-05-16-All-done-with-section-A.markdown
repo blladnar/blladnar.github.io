@@ -7,7 +7,7 @@ author:     "Randall"
 header-img: "img/All-done-with-section-AHeader.JPG"
 mile:       "110"
 ---
-Day 3 started off early with a plan to hitchhike into the town of Julian, CA. It's about 12 miles off the trail and there is a bakery offering free pie to thru hikers. First, we had to hike 13 miles to Scissors Crossing, which is a water cache where locals leave bottled water under a bridge for hikers. It was here I caught my first hitch from an old lady named Barbara who was on her way home from a church retreat.
+Day 4started off early with a plan to hitchhike into the town of Julian, CA. It's about 12 miles off the trail and there is a bakery offering free pie to thru hikers. First, we had to hike 13 miles to Scissors Crossing, which is a water cache where locals leave bottled water under a bridge for hikers. It was here I caught my first hitch from an old lady named Barbara who was on her way home from a church retreat.
 
 ![photo0](/img/All done with section APost0.JPG)
 

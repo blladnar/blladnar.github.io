@@ -15,7 +15,7 @@ At the top, we saw a large group of hikers we had seen in McDonald's. We sat and
 
 It was a cute little mountain town thet definitely catered to hikers. The grocery store had all the common hiking foods (Knorr sides, nutella, snickers, etc) marked and in their own special section. The market even gave hikers a free hot dog.
 
-Since it was memorial day, lodging was scarce, but we managed to find a room in a smal motel right in the middle of town. The manager let us squeeze five hikers into the room and gave us extra towels and soap for showers.
+Since it was memorial day, lodging was scarce, but we managed to find a room in a small motel right in the middle of town. The manager let us squeeze five hikers into the room and gave us extra towels and soap for showers.
 
 We ate dinner in town before going to bed, sharing beds with people we barely knew. In the morning, we had breakfast and ran into some friends who had night hiked into town. They had done 40 straight miles to get there.
 

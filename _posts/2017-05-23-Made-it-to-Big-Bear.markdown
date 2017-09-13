@@ -21,7 +21,7 @@ After 25 long miles I made it past the burn and camped on the saddle between two
 
 The next day, I had one task. Get to Big Bear. I woke up with the sunrise (no phone, so no clock) and managed to hike the 21 miles to the road by about 2:30 pm.
 
-In the final mile, I made ended up between a group of hikers that had hiked together the whole trip. Through the magic of the trail, we got a hitch in one car. The woman gave us a ride to Big Bear Hostel where I am currently sharing a room with 5 new friends. 
+In the final mile, I    ended up between a group of hikers that had hiked together the whole trip. Through the magic of the trail, we got a hitch in one car. The woman gave us a ride to Big Bear Hostel where I am currently sharing a room with 5 new friends. 
 
 I would have more pictures if my phone hadn't died, but here's one I took during a water break. In case you were wondering what a thru-hiker's foot looked like.
 
