@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Hippies And Hot Weather"
-subtitle:   "A couple "easy" days in Northern California"
+subtitle:   "A couple \"easy\" days in Northern California"
 date:       "2017-08-01 21:11:29"
 author:     "Randall"
 header-img: "img/Hippies-And-Hot-WeatherHeader.JPG"
@@ -11,7 +11,7 @@ I woke up early so that I could get into town early. I had 28 miles to go and my
 
 The day went really well. It was hot, but we were in shade most of the day. We had a big climb, but the app calculated the gain wrong. It was only about 4500 feet. (According to my Fitbit anyway) Soon I found myself at the top of the climb eating lunch and it was just 10 miles into town.
 
-I left the lunch spot with 2Taps and started hiking down. I got to the road and saw a trail register. He was 10 minutes ahead of me. I turned on my phone and checked for service. He had already gotten a hitch! I waited and waited. Other hikers showed up and it was still really hot. Eventually, a really nice bro picked us up. He offered us a protein bar and the entire ride into Mount Shasta he was blending his protein shake with his blender ball. 
+I left the lunch spot with 2Taps and started hiking down. I got to the road and saw a trail register. He was 10 minutes ahead of me. I turned on my phone and checked for service. He had already gotten a hitch! I waited and waited. Other hikers showed up and it was still really hot. Eventually, a really nice bro picked us up. He offered us a protein bar and the entire ride into Mount Shasta he was blending his protein shake with his blender ball.
 
 When we got to town, 2Taps had acquired a hotel and was enjoying the air conditioning. I dropped off my stuff and went to get a pizza and some chocolate milk. The pizza was huge and I only ate half of it. I did finish the 2 liter of Pepsi that came with it though. I got the chocolate milk from a natural grocery store in town. As I was outside drinking it, a guy in dreadlocks tried to start a game of hacky sack with me. If you don't know much about the town of Mount Shasta, look it up. There's a cult there, healing crystals, and all kinds of crazy stuff. It was a fun stop.
 
