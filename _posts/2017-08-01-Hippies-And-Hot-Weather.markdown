@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Hippies And Hot Weather"
-subtitle:   "A couple \"easy\" days in Northern California"
+subtitle:   "A couple 'easy' days in Northern California"
 date:       "2017-08-01 21:11:29"
 author:     "Randall"
 header-img: "img/Hippies-And-Hot-WeatherHeader.JPG"
