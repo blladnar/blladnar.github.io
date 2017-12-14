@@ -420,7 +420,8 @@ var postInfo = {
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 6,
-          center: mileageData["2650"]
+          center: mileageData["2650"],
+          mapTypeId: 'terrain'
         });
 
         var mileageKeys = Object.keys(mileageData)
