@@ -11,7 +11,7 @@ After our failed attempt to get out of the wind, we woke just before the sunrise
 
 ![photo0](/img/Milkshake MarathonPost0.JPG)
 
-We started climbing up and around silverwood lake, a reservoir that was full of boats on the holiday weekend. We also got some early morning trail magic in the form of bananas, strawberries, and cupcakes in a cooler hidden along the trail.
+We started climbing up and around Silverwood Lake, a reservoir that was full of boats on the holiday weekend. We also got some early morning trail magic in the form of bananas, strawberries, and cupcakes in a cooler hidden along the trail.
 
 Next we continued past powerlines and near campgrounds, bustling with activity. We climbed and climbed until finally the ground kind of just dropped away.
 

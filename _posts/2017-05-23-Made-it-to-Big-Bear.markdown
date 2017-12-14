@@ -9,7 +9,7 @@ mile:       "266"
 ---
 After my longest day, we had another big day ahead. There's a burn area just before Big Bear where no camping is allowed, and to get past it requires over 7000 feet of climbing in a little over 20 miles.
 
-It was another hot day, but at least this one would have a lot of water. We were hiking up a canyon with a stream running through it. Everyone jumped from shady spot to shady spot, leapfrogging eachother as we all took breaks.
+It was another hot day, but at least this one would have a lot of water. We were hiking up a canyon with a stream running through it. Everyone jumped from shady spot to shady spot, leapfrogging each other as we all took breaks.
 
 ![photo0](/img/Made it to Big BearPost0.JPG)
 
@@ -21,7 +21,7 @@ After 25 long miles I made it past the burn and camped on the saddle between two
 
 The next day, I had one task. Get to Big Bear. I woke up with the sunrise (no phone, so no clock) and managed to hike the 21 miles to the road by about 2:30 pm.
 
-In the final mile, I    ended up between a group of hikers that had hiked together the whole trip. Through the magic of the trail, we got a hitch in one car. The woman gave us a ride to Big Bear Hostel where I am currently sharing a room with 5 new friends. 
+In the final mile, I    ended up between a group of hikers that had hiked together the whole trip. Through the magic of the trail, we got a hitch in one car. The woman gave us a ride to Big Bear Hostel where I am currently sharing a room with 5 new friends.
 
 I would have more pictures if my phone hadn't died, but here's one I took during a water break. In case you were wondering what a thru-hiker's foot looked like.
 

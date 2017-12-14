@@ -10,8 +10,8 @@ mile:       "170"
 
 After my first solo camping, I headed out into the hot dusty desert. It got warm fast and I was low on water. I had four miles to go before the first water source and made the mistake of eating some beef jerky in the morning. I ran out of water on the side trail to the spring. I filtered a couple liters of water for the rest of my day and kept on hiking. The water tasted like iron.
 
-Later, in the heat of the day, I came upon a water cache and was excited to replace my water with somethig that tasted better. The cache was empty.
- 
+Later, in the heat of the day, I came upon a water cache and was excited to replace my water with something that tasted better. The cache was empty.
+
 ![photo0](/img/Gettin wild in IdyllwildPost0.JPG)
 
 I kept on hiking when I found Walden. Walden is a little oasis managed by a local trail angel that celebrates Thoreau and Whitman. It even has a Little Free Library, where you can trade books. I sat there and snacked while I dried my tent from the previous nights condensation.

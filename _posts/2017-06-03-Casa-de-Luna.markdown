@@ -7,7 +7,7 @@ author:     "Randall"
 header-img: "img/Casa-de-LunaHeader.JPG"
 mile:       "480"
 ---
-We woke up early to beat the heat and hike the short 10 miles to Casa De Luna. It was described to us as less corporate version of Hiker Heaven. The plan was to wait out the heat of the day, but the hiker vortex had other plans. 
+We woke up early to beat the heat and hike the short 10 miles to Casa De Luna. It was described to us as less corporate version of Hiker Heaven. The plan was to wait out the heat of the day, but the hiker vortex had other plans.
 
 What is the hiker vortex? It's a powerful force that makes hikers stay at certain locations and it's very strong at Casa De Luna. We arrived around 9:30 in the morning and managed to get the last few pancakes they had prepared for breakfast. Then, we napped in the hammocks in the backyard before heading into the one restaurant in the area for a milkshake and a burger.
 

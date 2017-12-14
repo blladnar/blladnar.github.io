@@ -33,12 +33,12 @@ After a couple hours in the shade of the bridge, we decided to hitchhike to the 
 
 ![photo2](/img/From high to lowPost2.JPG)
 
-The guy who picked us up told us he has some property on the PCT and wants to set up a hostel. This area could use something like that. He also gave us his number and said he'd pick us up and take us bacl to the trail.
+The guy who picked us up told us he has some property on the PCT and wants to set up a hostel. This area could use something like that. He also gave us his number and said he'd pick us up and take us back to the trail.
 
 We enjoyed a lot of food, drinks, and running water before heading back to the trail for our first real night hike.
 
 ![photo3](/img/From high to lowPost3.JPG)
 
-As the sun set on San Jacinto, we climbed up into the Mesa Wind Farm and met up with our friends who didnt go to town. We hiked 10 more miles with our headlamps, rounding out a day that ended up being a bit over 26 miles.
+As the sun set on San Jacinto, we climbed up into the Mesa Wind Farm and met up with our friends who didn't go to town. We hiked 10 more miles with our headlamps, rounding out a day that ended up being a bit over 26 miles.
 
 My first marathon.

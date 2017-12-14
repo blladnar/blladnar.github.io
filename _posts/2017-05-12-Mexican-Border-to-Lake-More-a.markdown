@@ -21,12 +21,12 @@ Eventually, we parted and I began my hike. The weather was cool despite the sun 
 
 ![photo1](/img/Mexican Border to Lake More aPost1.JPG)
 
-I passed a woman heading south. She handed me a wristband with a bible quote saying "You are never alone." I know she probably meant tjat god is always with you, but I like thinking it also means that everyone else on the trail is there to help too.
+I passed a woman heading south. She handed me a wristband with a bible quote saying "You are never alone." I know she probably meant that god is always with you, but I like thinking it also means that everyone else on the trail is there to help too.
 
 Soon I found myself at the bottom of Hauser Canyon with 3 other hikers. We lounged in the shade and talked about our plans. One was from Washington, like me, another was from San Diego. After about 45 minutes, I packed up and headed out of the canyon. This would be the hottest and most difficult part of the hike.
 
 ![photo2](/img/Mexican Border to Lake More aPost2.JPG)
 
-After the climb, it was a nice easy 4 miles downhill to Lake Morena campground. They have running water and a store with hot food. I headed to the store for dinner and ordered a ham and cheese melt with a chocolate malt. 
+After the climb, it was a nice easy 4 miles downhill to Lake Morena campground. They have running water and a store with hot food. I headed to the store for dinner and ordered a ham and cheese melt with a chocolate malt.
 
 Pretty great first day.

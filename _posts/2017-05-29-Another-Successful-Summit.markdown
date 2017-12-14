@@ -13,7 +13,7 @@ At the top, we saw a large group of hikers we had seen in McDonald's. We sat and
 
 ![photo0](/img/Another Successful SummitPost0.JPG)
 
-It was a cute little mountain town thet definitely catered to hikers. The grocery store had all the common hiking foods (Knorr sides, nutella, snickers, etc) marked and in their own special section. The market even gave hikers a free hot dog.
+It was a cute little mountain town that definitely catered to hikers. The grocery store had all the common hiking foods (Knorr sides, Nutella, snickers, etc) marked and in their own special section. The market even gave hikers a free hot dog.
 
 Since it was memorial day, lodging was scarce, but we managed to find a room in a small motel right in the middle of town. The manager let us squeeze five hikers into the room and gave us extra towels and soap for showers.
 

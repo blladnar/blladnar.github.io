@@ -7,7 +7,7 @@ author:     "Randall"
 header-img: "img/A-Nice-Day-For-A-SwimHeader.JPG"
 mile:       "991"
 ---
-I slept in this morning waiting for my friend to catch up. The first people I saw weren't my friend. It was a couple from New Zealand that I haven't seen since day 4. They hiked past my camp just as I was finishing packing up. I hiked down with them, glad to not be alone on the next couple creek crossings. 
+I slept in this morning waiting for my friend to catch up. The first people I saw weren't my friend. It was a couple from New Zealand that I haven't seen since day 4. They hiked past my camp just as I was finishing packing up. I hiked down with them, glad to not be alone on the next couple creek crossings.
 
 They were pretty uneventful. The first had a nice big log. The second, Paiute creek, had a log spanning the whole way that was underwater. The current was slow and the log was big. It was nice to only get our feet wet.
 
@@ -27,4 +27,4 @@ The next crossing was knee deep and easy. The third crossing would be a bit more
 
 There were other people at the crossing and we all made it across fine. We tried making a train to break the current for the people in back. It worked about halfway across before it got too deep and we had to swim for it. It was soooo cold.
 
-We took a break for dinner and let the things in our packs dry out. Thank goodness for dry bags and ziplocs. Then we hiked a few more miles. There is still lots of snow on the ground so I'm camped on a rock. The sun warmed it all day so it kinda feels like I have a heated floor. 
+We took a break for dinner and let the things in our packs dry out. Thank goodness for dry bags and Ziplocs. Then we hiked a few more miles. There is still lots of snow on the ground so I'm camped on a rock. The sun warmed it all day so it kinda feels like I have a heated floor. 
