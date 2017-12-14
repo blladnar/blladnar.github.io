@@ -1,0 +1,1538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My trail journal while I hike the Pacific Crest Trail, northbound, in 2017">
+
+    <title>Where Was I? - Pacific Crest Trail</title>
+
+    <link rel="canonical" href="http://localhost:4000/whereAmI2/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/fontStyle.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Pacific Crest Trail" />
+
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://adventuresnotvacations.com/">Adventures Not Vacations</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">PCT Blog</a>
+                </li>
+                
+				
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+				
+                
+				
+                <li>
+                    <a href="/whereAmI2/">Where Was I?</a>
+                </li>
+				
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Page Header -->
+
+
+  <header class="intro-header" style="background-image: url('/img/The-EndHeader.JPG')">
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>Where Was I?</h1>
+                    <hr class="small">
+                    <span class="subheading">An interactive map of what I was doing along the PCT.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			<style>
+  /* Always set the map height explicitly to define the size of the div
+   * element that contains the map. */
+  #map {
+    height: 500px;
+  }
+</style>
+
+<script>
+
+  var mileageData = {
+  "440" : {
+    "lat" : 34.417000000000002,
+    "lng" : -118.25
+  },
+  "2043" : {
+    "lat" : 44.814,
+    "lng" : -121.792
+  },
+  "1516" : {
+    "lat" : 41.201999999999998,
+    "lng" : -122.42400000000001
+  },
+  "936" : {
+    "lat" : 37.825000000000003,
+    "lng" : -119.279
+  },
+  "728" : {
+    "lat" : 36.296999999999997,
+    "lng" : -118.13200000000001
+  },
+  "1904" : {
+    "lat" : 43.591999999999999,
+    "lng" : -122.053
+  },
+  "321" : {
+    "lat" : 34.304000000000002,
+    "lng" : -117.285
+  },
+  "20" : {
+    "lat" : 32.683,
+    "lng" : -116.517
+  },
+  "301" : {
+    "lat" : 34.299999999999997,
+    "lng" : -117.125
+  },
+  "2093" : {
+    "lat" : 45.320999999999998,
+    "lng" : -121.697
+  },
+  "2116" : {
+    "lat" : 45.469000000000001,
+    "lng" : -121.83
+  },
+  "2610" : {
+    "lat" : 48.665999999999997,
+    "lng" : -120.72799999999999
+  },
+  "1247" : {
+    "lat" : 39.805999999999997,
+    "lng" : -121.04300000000001
+  },
+  "1107" : {
+    "lat" : 38.914999999999999,
+    "lng" : -120.139
+  },
+  "788" : {
+    "lat" : 36.765000000000001,
+    "lng" : -118.40900000000001
+  },
+  "991" : {
+    "lat" : 38.110999999999997,
+    "lng" : -119.625
+  },
+  "1558" : {
+    "lat" : 41.276000000000003,
+    "lng" : -122.702
+  },
+  "883" : {
+    "lat" : 37.445999999999998,
+    "lng" : -118.923
+  },
+  "384" : {
+    "lat" : 34.347999999999999,
+    "lng" : -117.83199999999999
+  },
+  "266" : {
+    "lat" : 34.289999999999999,
+    "lng" : -116.80200000000001
+  },
+  "638" : {
+    "lat" : 35.590000000000003,
+    "lng" : -118.121
+  },
+  "1026" : {
+    "lat" : 38.409999999999997,
+    "lng" : -119.66500000000001
+  },
+  "2650" : {
+    "lat" : 49,
+    "lng" : -120.801
+  },
+  "766" : {
+    "lat" : 36.549999999999997,
+    "lng" : -118.35899999999999
+  },
+  "2382" : {
+    "lat" : 47.347000000000001,
+    "lng" : -121.437
+  },
+  "583" : {
+    "lat" : 35.223999999999997,
+    "lng" : -118.233
+  },
+  "2636" : {
+    "lat" : 48.865000000000002,
+    "lng" : -120.746
+  },
+  "1017" : {
+    "lat" : 38.329000000000001,
+    "lng" : -119.637
+  },
+  "751" : {
+    "lat" : 36.454000000000001,
+    "lng" : -118.223
+  },
+  "558" : {
+    "lat" : 35.048999999999999,
+    "lng" : -118.36
+  },
+  "2274" : {
+    "lat" : 46.514000000000003,
+    "lng" : -121.462
+  },
+  "2144" : {
+    "lat" : 45.661999999999999,
+    "lng" : -121.892
+  },
+  "480" : {
+    "lat" : 34.643000000000001,
+    "lng" : -118.40600000000001
+  },
+  "1870" : {
+    "lat" : 43.310000000000002,
+    "lng" : -122.003
+  },
+  "681" : {
+    "lat" : 35.837000000000003,
+    "lng" : -118.04300000000001
+  },
+  "1701" : {
+    "lat" : 42.052999999999997,
+    "lng" : -122.79600000000001
+  },
+  "1591" : {
+    "lat" : 41.340000000000003,
+    "lng" : -122.958
+  },
+  "1090" : {
+    "lat" : 38.814,
+    "lng" : -120.03400000000001
+  },
+  "1737" : {
+    "lat" : 42.152000000000001,
+    "lng" : -122.509
+  },
+  "971" : {
+    "lat" : 38.015000000000001,
+    "lng" : -119.502
+  },
+  "778" : {
+    "lat" : 36.683,
+    "lng" : -118.378
+  },
+  "770" : {
+    "lat" : 36.593000000000004,
+    "lng" : -118.37
+  },
+  "1771" : {
+    "lat" : 42.396000000000001,
+    "lng" : -122.29000000000001
+  },
+  "1612" : {
+    "lat" : 41.502000000000002,
+    "lng" : -123.114
+  },
+  "609" : {
+    "lat" : 35.451999999999998,
+    "lng" : -118.312
+  },
+  "2349" : {
+    "lat" : 47.128,
+    "lng" : -121.39
+  },
+  "2432" : {
+    "lat" : 47.536999999999999,
+    "lng" : -121.13800000000001
+  },
+  "2205" : {
+    "lat" : 46.009,
+    "lng" : -121.788
+  },
+  "1305" : {
+    "lat" : 40.122999999999998,
+    "lng" : -121.398
+  },
+  "1471" : {
+    "lat" : 41.113999999999997,
+    "lng" : -122.09399999999999
+  },
+  "1278" : {
+    "lat" : 39.975999999999999,
+    "lng" : -121.24299999999999
+  },
+  "170" : {
+    "lat" : 33.725000000000001,
+    "lng" : -116.629
+  },
+  "468" : {
+    "lat" : 34.594000000000001,
+    "lng" : -118.33799999999999
+  },
+  "133" : {
+    "lat" : 33.429000000000002,
+    "lng" : -116.60299999999999
+  },
+  "2486" : {
+    "lat" : 47.93,
+    "lng" : -121.181
+  },
+  "1940" : {
+    "lat" : 43.921999999999997,
+    "lng" : -121.908
+  },
+  "2174" : {
+    "lat" : 45.811999999999998,
+    "lng" : -121.959
+  },
+  "1668" : {
+    "lat" : 41.939999999999998,
+    "lng" : -123.148
+  },
+  "64" : {
+    "lat" : 33.012,
+    "lng" : -116.524
+  },
+  "1406" : {
+    "lat" : 40.944000000000003,
+    "lng" : -121.548
+  },
+  "799" : {
+    "lat" : 36.869999999999997,
+    "lng" : -118.42700000000001
+  },
+  "813" : {
+    "lat" : 36.991,
+    "lng" : -118.449
+  },
+  "411" : {
+    "lat" : 34.381,
+    "lng" : -118.027
+  },
+  "2295" : {
+    "lat" : 46.658000000000001,
+    "lng" : -121.41200000000001
+  },
+  "855" : {
+    "lat" : 37.216999999999999,
+    "lng" : -118.824
+  },
+  "833" : {
+    "lat" : 37.113,
+    "lng" : -118.611
+  },
+  "42" : {
+    "lat" : 32.863,
+    "lng" : -116.413
+  },
+  "1164" : {
+    "lat" : 39.396000000000001,
+    "lng" : -120.379
+  },
+  "2462" : {
+    "lat" : 47.750999999999998,
+    "lng" : -121.086
+  },
+  "110" : {
+    "lat" : 33.274000000000001,
+    "lng" : -116.65300000000001
+  },
+  "1802" : {
+    "lat" : 42.688000000000002,
+    "lng" : -122.17100000000001
+  },
+  "1195" : {
+    "lat" : 39.579999999999998,
+    "lng" : -120.608
+  },
+  "2398" : {
+    "lat" : 47.463000000000001,
+    "lng" : -121.363
+  },
+  "878" : {
+    "lat" : 37.408000000000001,
+    "lng" : -118.93000000000001
+  },
+  "1053" : {
+    "lat" : 38.582999999999998,
+    "lng" : -119.83199999999999
+  },
+  "2239" : {
+    "lat" : 46.234999999999999,
+    "lng" : -121.551
+  },
+  "2581" : {
+    "lat" : 48.465000000000003,
+    "lng" : -120.77800000000001
+  },
+  "2292" : {
+    "lat" : 46.639000000000003,
+    "lng" : -121.381
+  },
+  "915" : {
+    "lat" : 37.683,
+    "lng" : -119.084
+  },
+  "1438" : {
+    "lat" : 41.137,
+    "lng" : -121.771
+  },
+  "347" : {
+    "lat" : 34.298999999999999,
+    "lng" : -117.506
+  },
+  "1647" : {
+    "lat" : 41.805999999999997,
+    "lng" : -123.218
+  },
+  "702" : {
+    "lat" : 36.021000000000001,
+    "lng" : -118.134
+  },
+  "2523" : {
+    "lat" : 48.170000000000002,
+    "lng" : -121.137
+  },
+  "1344" : {
+    "lat" : 40.411000000000001,
+    "lng" : -121.386
+  },
+  "1976" : {
+    "lat" : 44.216999999999999,
+    "lng" : -121.779
+  },
+  "1215" : {
+    "lat" : 39.707000000000001,
+    "lng" : -120.71899999999999
+  },
+  "2560" : {
+    "lat" : 48.295000000000002,
+    "lng" : -120.928
+  },
+  "1137" : {
+    "lat" : 39.167999999999999,
+    "lng" : -120.26900000000001
+  },
+  "957" : {
+    "lat" : 38.003999999999998,
+    "lng" : -119.38800000000001
+  },
+  "1375" : {
+    "lat" : 40.680999999999997,
+    "lng" : -121.419
+  },
+  "220" : {
+    "lat" : 34.009999999999998,
+    "lng" : -116.67100000000001
+  },
+  "903" : {
+    "lat" : 37.584000000000003,
+    "lng" : -119.05
+  },
+  "507" : {
+    "lat" : 34.720999999999997,
+    "lng" : -118.654
+  },
+  "1825" : {
+    "lat" : 42.927,
+    "lng" : -122.21899999999999
+  }
+}
+
+var postInfo = {
+
+
+   "2650": {"title": "The End",
+                       "url": "/2017/09/12/The-End/",
+                       "subtitle": "Walking was the easy part.",
+                       "mile": "2650",
+                       "date": "September 12, 2017"
+                     },
+
+
+
+   "2636": {"title": "The Last Night On Trail",
+                       "url": "/2017/09/11/The-Last-Night-On-Trail/",
+                       "subtitle": "It's bittersweet ",
+                       "mile": "2636",
+                       "date": "September 11, 2017"
+                     },
+
+
+
+   "2610": {"title": "Feels Like Fall",
+                       "url": "/2017/09/10/Feels-Like-Fall/",
+                       "subtitle": "Cold weather and sunshine",
+                       "mile": "2610",
+                       "date": "September 10, 2017"
+                     },
+
+
+
+   "2581": {"title": "The Trail Is Open",
+                       "url": "/2017/09/09/The-Trail-Is-Open/",
+                       "subtitle": "Time to get to Canada",
+                       "mile": "2581",
+                       "date": "September 9, 2017"
+                     },
+
+
+
+   "2560": {"title": "Above The Clouds",
+                       "url": "/2017/09/08/Above-The-Clouds/",
+                       "subtitle": "A little sunshine and lots of climbing",
+                       "mile": "2560",
+                       "date": "September 8, 2017"
+                     },
+
+
+
+   "2523": {"title": "Out Of Room",
+                       "url": "/2017/09/07/Out-Of-Room/",
+                       "subtitle": "There's a lot of people out here right now.",
+                       "mile": "2523",
+                       "date": "September 7, 2017"
+                     },
+
+
+
+   "2486": {"title": "Blueberries",
+                       "url": "/2017/09/06/Blueberries/",
+                       "subtitle": "Onward to Stehekin",
+                       "mile": "2486",
+                       "date": "September 6, 2017"
+                     },
+
+
+
+   "2462": {"title": "Another Day In Smokey Paradise",
+                       "url": "/2017/09/05/Another-Day-In-Smokey-Paradise/",
+                       "subtitle": "It was a little better than yesterday.",
+                       "mile": "2462",
+                       "date": "September 5, 2017"
+                     },
+
+
+
+   "2432": {"title": "Smoke",
+                       "url": "/2017/09/04/Smoke/",
+                       "subtitle": "Like, a lot of smoke.",
+                       "mile": "2432",
+                       "date": "September 4, 2017"
+                     },
+
+
+
+   "2398": {"title": "Passing Through",
+                       "url": "/2017/09/03/Passing-Through/",
+                       "subtitle": "Snoqualmie Pass",
+                       "mile": "2398",
+                       "date": "September 3, 2017"
+                     },
+
+
+
+   "2382": {"title": "Take It Easy",
+                       "url": "/2017/09/02/Take-It-Easy/",
+                       "subtitle": "Well, not that easy.",
+                       "mile": "2382",
+                       "date": "September 2, 2017"
+                     },
+
+
+
+   "2349": {"title": "Fire In Washington",
+                       "url": "/2017/09/01/Fire-In-Washington/",
+                       "subtitle": "An easy 50 miles...",
+                       "mile": "2349",
+                       "date": "September 1, 2017"
+                     },
+
+
+
+   "2295": {"title": "Active Recovery",
+                       "url": "/2017/08/31/Active-Recovery/",
+                       "subtitle": "5 days of backpacking to recover from backpacking",
+                       "mile": "2295",
+                       "date": "August 31, 2017"
+                     },
+
+
+
+   "2292": {"title": "On Top Of Old Snowy",
+                       "url": "/2017/08/27/Old-Snowy/",
+                       "subtitle": "All covered in snow.",
+                       "mile": "2292",
+                       "date": "August 27, 2017"
+                     },
+
+
+
+   "2274": {"title": "Goat Rocks",
+                       "url": "/2017/08/25/Goat-Rocks/",
+                       "subtitle": "They say it's the most beautiful part of the PCT",
+                       "mile": "2274",
+                       "date": "August 25, 2017"
+                     },
+
+
+
+   "2239": {"title": "Walking Around A Volcano",
+                       "url": "/2017/08/24/Walking-Around-A-Volcano/",
+                       "subtitle": "And a beautiful sunset on Mt. Adams",
+                       "mile": "2239",
+                       "date": "August 24, 2017"
+                     },
+
+
+
+   "2205": {"title": "Indian Heaven ",
+                       "url": "/2017/08/23/Indian-Heaven/",
+                       "subtitle": "If this was the Appalachian Trail, I'd be done.",
+                       "mile": "2205",
+                       "date": "August 23, 2017"
+                     },
+
+
+
+   "2174": {"title": "Welcome Home",
+                       "url": "/2017/08/22/Welcome-Home/",
+                       "subtitle": "Washington is hard!",
+                       "mile": "2174",
+                       "date": "August 22, 2017"
+                     },
+
+
+
+   "2144": {"title": "When Day Becomes Night",
+                       "url": "/2017/08/21/When-Day-Becomes-Night/",
+                       "subtitle": "My last day in Oregon",
+                       "mile": "2144",
+                       "date": "August 21, 2017"
+                     },
+
+
+
+   "2116": {"title": "All You Can Eat",
+                       "url": "/2017/08/20/All-You-Can-Eat/",
+                       "subtitle": "Breakfast Is Served",
+                       "mile": "2116",
+                       "date": "August 20, 2017"
+                     },
+
+
+
+   "2093": {"title": "Fifty",
+                       "url": "/2017/08/19/Fifty/",
+                       "subtitle": "50 miles in 18 hours",
+                       "mile": "2093",
+                       "date": "August 19, 2017"
+                     },
+
+
+
+   "2043": {"title": "HYOH",
+                       "url": "/2017/08/18/HYOH/",
+                       "subtitle": "Hitch Your Own Hike",
+                       "mile": "2043",
+                       "date": "August 18, 2017"
+                     },
+
+
+
+   "1976": {"title": "Alternative Trails",
+                       "url": "/2017/08/16/Alternative-Trails/",
+                       "subtitle": "Checking out the Three Sisters",
+                       "mile": "1976",
+                       "date": "August 16, 2017"
+                     },
+
+
+
+   "1940": {"title": "Mosquito Lakes",
+                       "url": "/2017/08/15/Mosquito-Lakes/",
+                       "subtitle": "And a little bit of magic",
+                       "mile": "1940",
+                       "date": "August 15, 2017"
+                     },
+
+
+
+   "1904": {"title": "Dinner Ends At 7",
+                       "url": "/2017/08/14/Dinner-Ends-At-7/",
+                       "subtitle": "Hiking fast in Oregon",
+                       "mile": "1904",
+                       "date": "August 14, 2017"
+                     },
+
+
+
+   "1870": {"title": "Big Miles",
+                       "url": "/2017/08/13/Big-Miles/",
+                       "subtitle": "Cold day in Oregon",
+                       "mile": "1870",
+                       "date": "August 13, 2017"
+                     },
+
+
+
+   "1825": {"title": "Crater Lake",
+                       "url": "/2017/08/12/Crater-Lake/",
+                       "subtitle": "America's Deepest Hole",
+                       "mile": "1825",
+                       "date": "August 12, 2017"
+                     },
+
+
+
+   "1802": {"title": "Getting Close To The Fire",
+                       "url": "/2017/08/11/Getting-Close-To-The-Fire/",
+                       "subtitle": "How do we get to Crater Lake?",
+                       "mile": "1802",
+                       "date": "August 11, 2017"
+                     },
+
+
+
+   "1771": {"title": "Lava Rocks And A Hot Meal",
+                       "url": "/2017/08/10/Lava-Rocks-And-A-Hot-Meal/",
+                       "subtitle": "A casual 33 miles",
+                       "mile": "1771",
+                       "date": "August 10, 2017"
+                     },
+
+
+
+   "1737": {"title": "One Night In Ashland",
+                       "url": "/2017/08/09/One-Night-In-Ashland/",
+                       "subtitle": "Finally, a karaoke night on trail.",
+                       "mile": "1737",
+                       "date": "August 9, 2017"
+                     },
+
+
+
+   "1701": {"title": "One Down Two To Go",
+                       "url": "/2017/08/07/One-Down-Two-To-Go/",
+                       "subtitle": "Welcome To Oregon",
+                       "mile": "1701",
+                       "date": "August 7, 2017"
+                     },
+
+
+
+   "1668": {"title": "Pancake Power",
+                       "url": "/2017/08/06/Pancake-Power/",
+                       "subtitle": "Less than 1000 miles to go!",
+                       "mile": "1668",
+                       "date": "August 6, 2017"
+                     },
+
+
+
+   "1647": {"title": "Marble Mountain Wilderness ",
+                       "url": "/2017/08/05/Marble-Mountain-Wilderness/",
+                       "subtitle": "More like walking on marbles mountain wilderness",
+                       "mile": "1647",
+                       "date": "August 5, 2017"
+                     },
+
+
+
+   "1612": {"title": "Taking It Easy",
+                       "url": "/2017/08/04/Taking-It-Easy/",
+                       "subtitle": "Quick Pit Stop In Etna",
+                       "mile": "1612",
+                       "date": "August 4, 2017"
+                     },
+
+
+
+   "1591": {"title": "Northern California Is Magical",
+                       "url": "/2017/08/03/Northern-California-Is-Magical/",
+                       "subtitle": "More trail magic to get me through.",
+                       "mile": "1591",
+                       "date": "August 3, 2017"
+                     },
+
+
+
+   "1558": {"title": "The Forecast Is",
+                       "url": "/2017/08/02/The-Forecast-Is/",
+                       "subtitle": "40 and Rain",
+                       "mile": "1558",
+                       "date": "August 2, 2017"
+                     },
+
+
+
+   "1516": {"title": "Hippies And Hot Weather",
+                       "url": "/2017/08/01/Hippies-And-Hot-Weather/",
+                       "subtitle": "A couple 'easy' days in Northern California",
+                       "mile": "1516",
+                       "date": "August 1, 2017"
+                     },
+
+
+
+   "1471": {"title": "Pretty Unremarkable",
+                       "url": "/2017/07/30/Pretty-Unremarkable/",
+                       "subtitle": "Except for the heat.",
+                       "mile": "1471",
+                       "date": "July 30, 2017"
+                     },
+
+
+
+   "1438": {"title": "Last Night Was Fun",
+                       "url": "/2017/07/29/Last-Night-Was-Fun/",
+                       "subtitle": "Let's do it again!",
+                       "mile": "1438",
+                       "date": "July 29, 2017"
+                     },
+
+
+
+   "1406": {"title": "The Breakfast Club",
+                       "url": "/2017/07/28/The-Breakfast-Club/",
+                       "subtitle": "Can you really do 30 miles after 10 am?",
+                       "mile": "1406",
+                       "date": "July 28, 2017"
+                     },
+
+
+
+   "1375": {"title": "National Park Day Trip",
+                       "url": "/2017/07/27/National-Park-Day-Trip/",
+                       "subtitle": "Eating well in Northern California",
+                       "mile": "1375",
+                       "date": "July 27, 2017"
+                     },
+
+
+
+   "1344": {"title": "Whoa, We're Halfway There",
+                       "url": "/2017/07/26/Whoa-Were-Halfway-There/",
+                       "subtitle": "Celebrating halfway in Chester",
+                       "mile": "1344",
+                       "date": "July 26, 2017"
+                     },
+
+
+
+   "1305": {"title": "A Festival On The Trail",
+                       "url": "/2017/07/24/A-Festival-On-The-Trail/",
+                       "subtitle": "Climbing out of the aftermath",
+                       "mile": "1305",
+                       "date": "July 24, 2017"
+                     },
+
+
+
+   "1278": {"title": "Northern California Is Just Like The Desert",
+                       "url": "/2017/07/23/Northern-California-Is-Just-Like-The-Desert/",
+                       "subtitle": "With bigger mountains and more bugs.",
+                       "mile": "1278",
+                       "date": "July 23, 2017"
+                     },
+
+
+
+   "1247": {"title": "Take Me To The River",
+                       "url": "/2017/07/22/Take-Me-To-The-River/",
+                       "subtitle": "Put Me In The Water",
+                       "mile": "1247",
+                       "date": "July 22, 2017"
+                     },
+
+
+
+   "1215": {"title": "Summertime",
+                       "url": "/2017/07/21/Summertime/",
+                       "subtitle": "In Northern California",
+                       "mile": "1215",
+                       "date": "July 21, 2017"
+                     },
+
+
+
+   "1195": {"title": "Town Food",
+                       "url": "/2017/07/20/Town-Food/",
+                       "subtitle": "Two Days In A Row",
+                       "mile": "1195",
+                       "date": "July 20, 2017"
+                     },
+
+
+
+   "1164": {"title": "Trail Magic ",
+                       "url": "/2017/07/19/Trail-Magic/",
+                       "subtitle": "and mosquitoes. Lots of mosquitoes.",
+                       "mile": "1164",
+                       "date": "July 19, 2017"
+                     },
+
+
+
+   "1137": {"title": "Where There's Smoke",
+                       "url": "/2017/07/18/Where-There's-Smoke/",
+                       "subtitle": "There are ski areas?",
+                       "mile": "1137",
+                       "date": "July 18, 2017"
+                     },
+
+
+
+   "1107": {"title": "Getting The Band Back Together",
+                       "url": "/2017/07/17/Getting-The-Band-Back-Together/",
+                       "subtitle": "First Day Back On Trail",
+                       "mile": "1107",
+                       "date": "July 17, 2017"
+                     },
+
+
+
+   "1090": {"title": "A Vacation From My Vacation",
+                       "url": "/2017/07/16/A-Vacation-From-My-Vacation/",
+                       "subtitle": "One Week Off",
+                       "mile": "1090",
+                       "date": "July 16, 2017"
+                     },
+
+
+
+   "1090": {"title": "Longest Day Ever",
+                       "url": "/2017/07/09/Longest-Day-Ever/",
+                       "subtitle": "The city that never sleeps",
+                       "mile": "1090",
+                       "date": "July 9, 2017"
+                     },
+
+
+
+   "1053": {"title": "Smaller Mountains",
+                       "url": "/2017/07/08/Smaller-Mountains/",
+                       "subtitle": "Bigger Miles",
+                       "mile": "1053",
+                       "date": "July 8, 2017"
+                     },
+
+
+
+   "1026": {"title": "New Mountains ",
+                       "url": "/2017/07/07/New-Mountains/",
+                       "subtitle": "Same Old Snow",
+                       "mile": "1026",
+                       "date": "July 7, 2017"
+                     },
+
+
+
+   "1017": {"title": "We Made It To Kennedy Meadows!",
+                       "url": "/2017/07/06/We-Made-It-To-Kennedy-Meadows!/",
+                       "subtitle": "Again?",
+                       "mile": "1017",
+                       "date": "July 6, 2017"
+                     },
+
+
+
+   "991": {"title": "A Nice Day For A Swim",
+                       "url": "/2017/07/05/A-Nice-Day-For-A-Swim/",
+                       "subtitle": "The last big creek crossing?",
+                       "mile": "991",
+                       "date": "July 5, 2017"
+                     },
+
+
+
+   "971": {"title": "Technical Difficulties ",
+                       "url": "/2017/07/04/Technical-Difficulties/",
+                       "subtitle": "Please Stand By",
+                       "mile": "971",
+                       "date": "July 4, 2017"
+                     },
+
+
+
+   "957": {"title": "The Last Mile Of The Day",
+                       "url": "/2017/07/03/The-Last-Mile-Of-The-Day/",
+                       "subtitle": "Is Always The Hardest",
+                       "mile": "957",
+                       "date": "July 3, 2017"
+                     },
+
+
+
+   "936": {"title": "Welcome To Yosemite",
+                       "url": "/2017/07/02/Welcome-To-Yosemite/",
+                       "subtitle": "A long day with a great ending.",
+                       "mile": "936",
+                       "date": "July 2, 2017"
+                     },
+
+
+
+   "915": {"title": "A Day In Mammoth Then Back To The Trail",
+                       "url": "/2017/07/01/Back-To-The-Trail/",
+                       "subtitle": "Tourists for the day",
+                       "mile": "915",
+                       "date": "July 1, 2017"
+                     },
+
+
+
+   "903": {"title": "Resort to Resort Town",
+                       "url": "/2017/06/29/Resort-to-Resort-Town/",
+                       "subtitle": "A looooong day.",
+                       "mile": "903",
+                       "date": "June 29, 2017"
+                     },
+
+
+
+   "883": {"title": "Vacation and Commitment",
+                       "url": "/2017/06/28/Vacation-and-Commitment/",
+                       "subtitle": "A restful day with an interesting end",
+                       "mile": "883",
+                       "date": "June 28, 2017"
+                     },
+
+
+
+   "878": {"title": "Impassable",
+                       "url": "/2017/06/27/Impassable/",
+                       "subtitle": "You keep using that word. I do not think it means, what you think it means.",
+                       "mile": "878",
+                       "date": "June 27, 2017"
+                     },
+
+
+
+   "855": {"title": "This Actually Feels Possible",
+                       "url": "/2017/06/26/This-Actually-Feels-Possible/",
+                       "subtitle": "Muir Pass and Evolution Creek",
+                       "mile": "855",
+                       "date": "June 26, 2017"
+                     },
+
+
+
+   "833": {"title": "I Forgot It Was Summer",
+                       "url": "/2017/06/25/I-Forgot-It-Was-Summer/",
+                       "subtitle": "Finally, the Sierras I've always seen on TV",
+                       "mile": "833",
+                       "date": "June 25, 2017"
+                     },
+
+
+
+   "813": {"title": "Earning Every View",
+                       "url": "/2017/06/24/Earning-Every-View/",
+                       "subtitle": "More Surprise Creek Crossings!",
+                       "mile": "813",
+                       "date": "June 24, 2017"
+                     },
+
+
+
+   "799": {"title": "Back In The Mountains",
+                       "url": "/2017/06/23/Back-In-The-Mountains/",
+                       "subtitle": "Surprise Creek Crossings",
+                       "mile": "799",
+                       "date": "June 23, 2017"
+                     },
+
+
+
+   "788": {"title": "Two Mountain Passes And A Creek Crossing",
+                       "url": "/2017/06/20/Two-mountain-passes-and-a-creek-crossing/",
+                       "subtitle": "Where it's at",
+                       "mile": "788",
+                       "date": "June 20, 2017"
+                     },
+
+
+
+   "778": {"title": "Obstacles",
+                       "url": "/2017/06/19/Obstacles/",
+                       "subtitle": "Overcoming adversities in the Sierra Nevada",
+                       "mile": "778",
+                       "date": "June 19, 2017"
+                     },
+
+
+
+   "770": {"title": "Summit Day",
+                       "url": "/2017/06/18/Summit-Day/",
+                       "subtitle": "Highs and Lows",
+                       "mile": "770",
+                       "date": "June 18, 2017"
+                     },
+
+
+
+   "766": {"title": "Crossing Creeks",
+                       "url": "/2017/06/17/Crossing-Creeks/",
+                       "subtitle": "Getting wet and wild in the Sierras",
+                       "mile": "766",
+                       "date": "June 17, 2017"
+                     },
+
+
+
+   "751": {"title": "Look At All That Snow",
+                       "url": "/2017/06/16/Look-At-All-That-Snow/",
+                       "subtitle": "... but where did the trail go?",
+                       "mile": "751",
+                       "date": "June 16, 2017"
+                     },
+
+
+
+   "728": {"title": "First Day In The Sierras",
+                       "url": "/2017/06/15/First-Day-In-The-Sierras/",
+                       "subtitle": "Mosquitoes and great views!",
+                       "mile": "728",
+                       "date": "June 15, 2017"
+                     },
+
+
+
+   "702": {"title": "Kennedy Meadows: Gateway To The Sierras",
+                       "url": "/2017/06/14/Gateway-To-The-Sierras/",
+                       "subtitle": "My first day off",
+                       "mile": "702",
+                       "date": "June 14, 2017"
+                     },
+
+
+
+   "681": {"title": "One Last Stop",
+                       "url": "/2017/06/12/One-Last-Stop/",
+                       "subtitle": "In the desert",
+                       "mile": "681",
+                       "date": "June 12, 2017"
+                     },
+
+
+
+   "638": {"title": "The Kindness Of Strangers",
+                       "url": "/2017/06/10/The-Kindness-Of-Strangers/",
+                       "subtitle": "How we learned to stop worrying and trust the water cache.",
+                       "mile": "638",
+                       "date": "June 10, 2017"
+                     },
+
+
+
+   "609": {"title": "Hiking Into The Herd",
+                       "url": "/2017/06/09/Hiking-Into-The-Herd/",
+                       "subtitle": "New friends and 600 miles",
+                       "mile": "609",
+                       "date": "June 9, 2017"
+                     },
+
+
+
+   "583": {"title": "So Long Tehachapi ",
+                       "url": "/2017/06/08/So-Long-Tehachapi/",
+                       "subtitle": "The nicest town on the trail",
+                       "mile": "583",
+                       "date": "June 8, 2017"
+                     },
+
+
+
+   "558": {"title": "Water Water Everywhere",
+                       "url": "/2017/06/06/Water-Water-Everywhere/",
+                       "subtitle": "and not a drop to drink",
+                       "mile": "558",
+                       "date": "June 6, 2017"
+                     },
+
+
+
+   "507": {"title": "I would walk 500 miles",
+                       "url": "/2017/06/04/I-would-walk-500-miles/",
+                       "subtitle": "and I would walk 2150 more",
+                       "mile": "507",
+                       "date": "June 4, 2017"
+                     },
+
+
+
+   "480": {"title": "Casa de Luna",
+                       "url": "/2017/06/03/Casa-de-Luna/",
+                       "subtitle": "Welcome to the hiker vortex",
+                       "mile": "480",
+                       "date": "June 3, 2017"
+                     },
+
+
+
+   "468": {"title": "Hiker Heaven",
+                       "url": "/2017/06/02/Hiker-Heaven/",
+                       "subtitle": "Where hikers go to rest",
+                       "mile": "468",
+                       "date": "June 2, 2017"
+                     },
+
+
+
+   "440": {"title": "Dodging Poodles",
+                       "url": "/2017/05/31/Dodging-Poodles/",
+                       "subtitle": "The most dangerous day on the PCT",
+                       "mile": "440",
+                       "date": "May 31, 2017"
+                     },
+
+
+
+   "411": {"title": "400 Miles",
+                       "url": "/2017/05/30/400-Miles/",
+                       "subtitle": "Sometimes you have to go the extra mile",
+                       "mile": "411",
+                       "date": "May 30, 2017"
+                     },
+
+
+
+   "384": {"title": "Another Successful Summit",
+                       "url": "/2017/05/29/Another-Successful-Summit/",
+                       "subtitle": "Wrightwood and Mt Baden Powell",
+                       "mile": "384",
+                       "date": "May 29, 2017"
+                     },
+
+
+
+   "347": {"title": "Milkshake Marathon",
+                       "url": "/2017/05/27/Milkshake-Marathon/",
+                       "subtitle": "McDonald's is a hell of a drug",
+                       "mile": "347",
+                       "date": "May 27, 2017"
+                     },
+
+
+
+   "321": {"title": "Hot Springs and Root Beer Floats",
+                       "url": "/2017/05/26/Hot-Springs-and-Root-Beer-Floats/",
+                       "subtitle": "...and a dust storm",
+                       "mile": "321",
+                       "date": "May 26, 2017"
+                     },
+
+
+
+   "301": {"title": "The Big 300",
+                       "url": "/2017/05/25/The-Big-300/",
+                       "subtitle": "Nearos and New Friends",
+                       "mile": "301",
+                       "date": "May 25, 2017"
+                     },
+
+
+
+   "266": {"title": "Made it to Big Bear",
+                       "url": "/2017/05/23/Made-it-to-Big-Bear/",
+                       "subtitle": "Long days, rough feet",
+                       "mile": "266",
+                       "date": "May 23, 2017"
+                     },
+
+
+
+   "220": {"title": "From High to Low",
+                       "url": "/2017/05/21/From-High-to-Low/",
+                       "subtitle": "With a marathon finish ",
+                       "mile": "220",
+                       "date": "May 21, 2017"
+                     },
+
+
+
+   "170": {"title": "Gettin wild in Idyllwild",
+                       "url": "/2017/05/19/Gettin-wild-in-Idyllwild/",
+                       "subtitle": "A day in paradise and a night of fun",
+                       "mile": "170",
+                       "date": "May 19, 2017"
+                     },
+
+
+
+   "133": {"title": "Getting some trail magic after Warner Springs",
+                       "url": "/2017/05/17/Getting-some-trail-magic-after-Warner-Springs/",
+                       "subtitle": "They literally came out of the mist...",
+                       "mile": "133",
+                       "date": "May 17, 2017"
+                     },
+
+
+
+   "110": {"title": "All done with section A",
+                       "url": "/2017/05/16/All-done-with-section-A/",
+                       "subtitle": "Hitchhiking, wind, and an awesome cheeseburger.",
+                       "mile": "110",
+                       "date": "May 16, 2017"
+                     },
+
+
+
+   "64": {"title": "Mt. Laguna to Chariot Canyon Rd.",
+                       "url": "/2017/05/14/Mt.-Laguna-to-Chariot-Canyon-Rd",
+                       "subtitle": "Wind and Wildlife",
+                       "mile": "64",
+                       "date": "May 14, 2017"
+                     },
+
+
+
+   "42": {"title": "Lake Morena to Mount Laguna",
+                       "url": "/2017/05/13/Lake-Morena-to-Mount-Laguna/",
+                       "subtitle": "Blisters and Ultramarathons",
+                       "mile": "42",
+                       "date": "May 13, 2017"
+                     },
+
+
+
+   "20": {"title": "Day 1: Mexican Border to Lake Morena",
+                       "url": "/2017/05/12/Mexican-Border-to-Lake-More-a/",
+                       "subtitle": "Walking is the easy part",
+                       "mile": "20",
+                       "date": "May 12, 2017"
+                     },
+
+
+
+
+
+
+}
+
+</script>
+
+<div id="map"></div>
+    <script>
+    var currentInfoWindow = null
+
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 6,
+          center: mileageData["2650"]
+        });
+
+        var mileageKeys = Object.keys(mileageData)
+        for (key of mileageKeys) {
+          var title = postInfo[key]["title"]
+          var marker = new google.maps.Marker({
+            position: mileageData[key],
+            map: map,
+            title: title,
+            url: postInfo[key]["url"],
+            subtitle: postInfo[key]["subtitle"],
+            mile: postInfo[key]["mile"],
+            date: postInfo[key]["date"]
+          })
+
+          if (key == "2650") {
+            var content = "<div style='cursor: pointer' onclick=\"window.location ='" + marker.url + "'\"><center><h3>" + marker.title + "</h3>"
+            content += marker.subtitle + "<br/>"
+            content += "<b>Mile: " + marker.mile + "</b><br/>"
+            content += marker.date
+            content += "</center></div>"
+
+            var infowindow = new google.maps.InfoWindow({
+              content: content
+            });
+
+            infowindow.open(map, marker);
+            currentInfoWindow = infowindow;
+          }
+
+          google.maps.event.addListener(marker, 'click', function() {
+
+            if(currentInfoWindow) {
+              currentInfoWindow.close()
+            }
+
+            var content = "<div style='cursor: pointer' onclick=\"window.location ='" + this.url + "'\"><center><h3>" + this.title + "</h3>"
+            content += this.subtitle + "<br/>"
+            content += "<b>Mile: " + this.mile + "</b><br/>"
+            content += this.date
+            content += "</center></div>"
+
+            var infowindow = new google.maps.InfoWindow({
+              content: content
+            });
+
+
+            infowindow.open(map, this);
+
+            currentInfoWindow = infowindow
+          });
+        }
+
+
+      }
+    </script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvhO8v5BhRc2A--LnfC_8e7L3UTzOziSk&callback=initMap" async defer>
+</script>
+
+		</div>
+	</div>
+</div>
+
+<hr>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="https://www.facebook.com/RandallBrown">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="https://github.com/blladnar">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="https://instagram.com/blladnar">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+
+                    <li>
+                        <a href="https://instagram.com/backcountrybathrooms">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa icon-man-woman fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; Adventures Not Vacations 2017</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-97562029-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+</body>
+
+</html>
